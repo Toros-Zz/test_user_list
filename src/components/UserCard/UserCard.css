@@ -1,0 +1,75 @@
+.UserCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+
+  z-index: 1;
+
+  background-color: #fff;
+  border: 1px solid silver;
+  width: 350px;
+  padding: 16px 0;
+  box-sizing: border-box;
+
+  align-items: center;
+}
+
+.UserCard__header {
+  margin-bottom: 16px;
+  gap: 8px;
+}
+
+.UserCard__details,
+.UserCard__header,
+.UserCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserCard__line {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+}
+
+.UserCard__foto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+.UserCard__send-button {
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  height: 32px;
+  margin-top: 16px;
+
+  transition: all 0.3s;
+}
+
+.UserCard__send-button:hover {
+  background-color: rgb(94, 94, 255);
+
+}
+
+.UserCard__details {
+  margin: 16px 16px 0 16px;
+}
+
+.DetailLine__label,
+.DetailLine__text {
+  display: inline-block;
+}
+
+.DetailLine__label {
+  width: 90px;
+  white-space: nowrap;
+  padding: 4px 0;
+  font-weight: 600;
+}

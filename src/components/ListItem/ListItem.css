@@ -1,0 +1,49 @@
+.ListItem__item {
+  width: 800px;
+  height: 150px;
+  padding: 16px;
+
+  border: 1px solid silver;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.ListItem__foto {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.ListItem__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.ListItem__person {
+  display: flex;
+  gap: 24px;
+}
+
+.ListItem__button {
+  border-radius: 5px;
+  border: 1px solid silver;
+  background-color: #fff;
+  padding: 8px;
+  color: rgb(29, 29, 29);
+  box-sizing: border-box;
+
+  transition: all 0.3s;
+}
+
+.ListItem__button:hover {
+  border: 1px solid rgb(110, 109, 142);
+  background-color: rgb(182, 193, 210);
+}
